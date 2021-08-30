@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #282c34;
+}
+
+.Articles {
+  min-height: min-content;
+  margin-left: 2em;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  
+  align-items: left;
+  color: white;
+}
+
+.Article {
+  max-width: 30%;
+  /* height: max-content; */
+  margin-left: 1em;
+  margin-top: 1em;
+  border: white 1px solid;
+  padding: 3px;
+}
+.Article-title {
+  margin-top: 0;
+}
+
+.Search-form {
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.Article-title-highlight {
+  background-color: chartreuse;
+}
